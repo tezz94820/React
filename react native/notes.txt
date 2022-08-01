@@ -1,0 +1,21 @@
+1) in reactNative only UI components are converted to native components.and the logic in javascript remains in javascript onl yand is run on another threadthread
+thread.
+2) div in react is replaced by view in reactnative
+3) react native ::-- 1) components make UI      2) logic made in javascript 
+4) threre is a virtual machine which directly converts out logic in js to the native platform . and simply we can type in js. and
+5) to install expo cli
+        --go to cmd and write npm i --global expo-cli
+        -- if external scripts is not run error comes then got to  windows powershell and write (Set-ExecutionPolicy RemoteSigned) and then yes 
+        -- to make an app write expo init firstapp
+6) to create react native cli app 
+    -- npx react-native init projectName
+    --npx react-native start        -- to start metro
+
+
+
+//new computer
+
+
+
+to run metro  :- npx react-native start
+to run android emulator :- npx react-native run-android

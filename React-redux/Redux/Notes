@@ -1,0 +1,14 @@
+Three main conditions in Redux :-
+    1) Store :- Holds the state of your application (a container).
+    2) Action :- Describes what had happened ( tells us what to do).
+    3) Reducer :- ties the stre and action together. it habdles the action and how to update the    state.
+
+
+Three main Principles in Redux :- 
+    1) First Principle :- "the global state of your application is stored as an object inside a single store". that means only one object should be there in the store which as a result reduxc manages.
+
+    2) Second Principle :- "the only way to change the state is to dispatch an action  , an object which describes what has happened". you cannot change the state .so state is read only .the only way to change the state is to dispatch an action
+
+    3) Third Principle :- to specify how the state tree is updated based on the actions , you write pure reducers.
+    Reducer => (prevState,action) -> newState.
+    so reducer is just as a function which returns a new state on the basis of the action type
