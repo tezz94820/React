@@ -19,3 +19,7 @@ thread.
 
 to run metro  :- npx react-native start
 to run android emulator :- npx react-native run-android
+
+
+//stylesheet
+1) button has no styles .so you cannot manipute the button.so put th button inside the view and then style the view.it will work

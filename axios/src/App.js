@@ -1,12 +1,12 @@
 import Title from './components/Title';
-import Setup from './examples/6-interceptors';
+import Covid from './examples/Covid';
 // import './axios/global'
 
 function App() {
   return (
     <main>
       <Title />
-      <Setup />
+      <Covid />
     </main>
   );
 }
